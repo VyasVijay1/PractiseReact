@@ -7,7 +7,7 @@ return (
     <div className="navstyle">
       
         <ul>
-            <li><NavLink to="/">Home</NavLink></li>
+            <li><NavLink exact={true} to="/">Home</NavLink></li>
             <li><NavLink to="/PropsBasicContactCard">PropsBasicContactCard</NavLink></li>
             <li><NavLink to="/Todo">Todo</NavLink></li>  
             <li><NavLink to="/MapProduct">MapProduct</NavLink></li> 
@@ -22,4 +22,5 @@ return (
     </div>
 )
 }
+
 export default Menu

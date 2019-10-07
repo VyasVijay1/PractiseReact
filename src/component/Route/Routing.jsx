@@ -24,19 +24,19 @@ return (
                             <tr>
                                 <td className="tdwidth10perc">&nbsp;</td>
                                 <td className="tdwidth80perc">
-                                    <Switch>
-                                        <Route path="/" exact component={Home}/>
-                                        <Route path="/IsloggedIn" component={IsloggedIn1}/> 
-                                        <Route path="/LifeCycleEvents" component={LifeCycleEvents}/>
-                                        <Route path="/PassEvents" component={PassEvents}/> 
-                                        <Route path="/SetState" component={SetState} /> 
-                                        <Route path="/IsloggedIn" component={IsloggedIn}/> 
-                                        <Route path="/BasicClass" component={BasicClass}/>  
-                                        <Route path="/Todo" component={Todo}/>  
-                                        <Route path="/MapProduct" component={MapProduct}/> 
-                                        <Route path="/MapJoke" component={MapJoke}/> 
-                                        <Route path="/PropsBasicContactCard" component={PropsBasicContactCard}/>
-                                    </Switch>
+                                <Switch>
+                                    <Route path="/" exact component={Home}/>
+                                    <Route path="/IsloggedIn" component={IsloggedIn1}/> 
+                                    <Route path="/LifeCycleEvents" component={LifeCycleEvents}/>
+                                    <Route path="/PassEvents" component={PassEvents}/> 
+                                    <Route path="/SetState" component={SetState} /> 
+                                    <Route path="/IsloggedIn" component={IsloggedIn}/> 
+                                    <Route path="/BasicClass" component={BasicClass}/>  
+                                    <Route path="/Todo" component={Todo}/>  
+                                    <Route path="/MapProduct" component={MapProduct}/> 
+                                    <Route path="/MapJoke" component={MapJoke}/> 
+                                    <Route path="/PropsBasicContactCard" component={PropsBasicContactCard}/>
+                                </Switch>
                                 </td>
                                 <td className="tdwidth10perc">&nbsp;</td>
                             </tr>
